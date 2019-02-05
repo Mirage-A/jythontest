@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.mirage'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.python', name: 'jython', version: '2.7.0'
+}
